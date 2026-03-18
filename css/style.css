@@ -1,0 +1,6 @@
+header{background-image: url("../img/download.jpg"); height: 290px;width: 740px; display: flex; align-items: center; justify-content: center; background-size: contain; }
+h1{color: rgb(189, 37, 100); font-size: 80px; text-shadow: 2px 2px 2px #3d0431;}
+input{ width: 65%;margin: 20px;}
+
+
+
