@@ -1,5 +1,5 @@
 header{background-image: url("../img/download.jpg"); height: 290px; display: flex; align-items: center; justify-content: center; background-size: cover;}
-h1{color: rgb(235, 15, 106); font-size: 80px; text-shadow: 2px 2px 2px #3d0431;}
+h1{color: rgb(238, 81, 146); font-size: 80px; text-shadow: 2px 2px 2px #3d0431; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 input{ width: 65%;margin: 20px; background-color: rgb(225, 236, 69); margin-left: 12%;}
 label{color: orangered; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 .komentaras{height: 80px;}
