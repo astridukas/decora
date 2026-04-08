@@ -21,5 +21,6 @@ body {
     background-color: rgb(245, 206, 230);
 }
 table, td, tr{border: 3px dotted rgb(165, 47, 67); border-collapse: collapse}
+img{object-fit: cover; height: 300px; width: 200px;}
 footer{height: 120px; background-color: rgb(138, 190, 250);}
 footer p{margin-left: 47%; color: rgb(33, 122, 122); font-size: 15px; font-family: 'Times New Roman', Times, serif; font-weight: 200;}
