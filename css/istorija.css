@@ -7,7 +7,7 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    
+
 }
 
 h2 {
@@ -21,8 +21,30 @@ body {
     background-color: rgb(245, 206, 230);
 }
 
-img, p{width: 50%;}
-div{display: flex;}
-p{font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(207, 111, 202);}
-footer{height: 120px; background-color: rgb(138, 190, 250);}
-footer p{margin-left: 47%; color: rgb(33, 122, 122); font-size: 15px; font-family: 'Times New Roman', Times, serif; font-weight: 200;}
+img,
+p {
+    width: 50%;
+}
+img{object-fit: cover;}
+div {
+    display: flex;
+}
+
+p {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(207, 111, 202);
+}
+
+footer {
+    height: 120px;
+    background-color: rgb(138, 190, 250);
+}
+
+footer p {
+    margin-left: 47%;
+    color: rgb(33, 122, 122);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}

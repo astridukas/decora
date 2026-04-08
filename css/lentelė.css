@@ -7,6 +7,7 @@ header {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    object-fit: cover;
     
 }
 
@@ -14,13 +15,32 @@ h2 {
     font-size: 70px;
     color: rgb(238, 81, 146);
     text-shadow: 2px 2px 2px #3d0431;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    display: flex;
+    flex-shrink: 2;
+    
+    
 }
 
 body {
     background-color: rgb(245, 206, 230);
 }
-table, td, tr{border: 3px dotted rgb(165, 47, 67); border-collapse: collapse}
-img{object-fit: cover; height: 300px; width: 200px;}
+table, td, tr{border: 3px dotted rgb(165, 47, 67); border-collapse: collapse; }
+table{width: 100%;}
+td, tr {font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(117, 18, 79);}
+th{color: #20061b;}
+img{object-fit: cover; max-height: 300px; max-width: 200px;}
 footer{height: 120px; background-color: rgb(138, 190, 250);}
 footer p{margin-left: 47%; color: rgb(33, 122, 122); font-size: 15px; font-family: 'Times New Roman', Times, serif; font-weight: 200;}
+@media (max-width: 526px){
+    img{width: 130px; height: 200px;}
+    h2{font-size: 15px}
+}
+@media (max-width: 898px){
+h2{font-size: 60px; border-width: 2px;}
+}
+@media (max-width: 774px){h2{font-size: 50px;} img{height: 250px; width: 180px;}}
+@media (max-width: 650px)
+    {h2{font-size: 40px;} img{height: 230px; width: 150px;}
+}
+
