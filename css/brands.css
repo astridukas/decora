@@ -1,0 +1,2 @@
+section{display: flex; border: 2px solid black;  flex-direction: column;}
+img{width: 200px; height: 200px; object-fit: cover;}
