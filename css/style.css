@@ -64,10 +64,14 @@ footer {
     left: 0;
 }
 
-p {
+footer p {
     margin-left: 48%;
     color: rgb(33, 122, 122);
 }
+button{width: 800px; height: 600px; z-index: 3; position: absolute; top: 8vh; left: 5vw; background-color: rgba(240, 248, 255, 0); border: 0px; font-size: 50px;}
+img{width:700px}
+button p{position: relative; top: -53vh; color: rgb(179, 13, 82);}
+
 @media (max-width:500px){
     a{font-size: 14px;}
     label{font-size: 14px;}
